@@ -45,19 +45,19 @@ export default function Contact() {
               {
                 icon: Phone,
                 title: "ফোন",
-                content: "+880 1234 567890",
-                subtext: "সোমবার - শুক্রবার, ৯:০০ - ১৮:০০",
+                content: "01334762288",
+                subtext: "আমাদের অফিস নাম্বার",
               },
               {
                 icon: Mail,
                 title: "ইমেইল",
-                content: "info@captainshop.com",
+                content: "masbsl.com@gmail.com",
                 subtext: "আমরা ২৪ ঘন্টার মধ্যে উত্তর দেব",
               },
               {
                 icon: MapPin,
                 title: "ঠিকানা",
-                content: "ঢাকা, বাংলাদেশ",
+                content: "বাগেরহাট, খুলনা",
                 subtext: "আমাদের অফিস পরিদর্শন করুন",
               },
             ].map((info, index) => {
@@ -144,7 +144,7 @@ export default function Contact() {
                 <div className="text-center">
                   <MapPin className="w-16 h-16 text-[#001f3f] mx-auto mb-4" />
                   <p className="text-gray-600 font-semibold">Google Map এখানে প্রদর্শিত হবে</p>
-                  <p className="text-sm text-gray-500 mt-2">ঢাকা, বাংলাদেশ</p>
+                  <p className="text-sm text-gray-500 mt-2">বাগেরহাট, খুলনা</p>
                 </div>
               </div>
             </div>
