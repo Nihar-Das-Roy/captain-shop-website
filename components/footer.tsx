@@ -45,49 +45,26 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#d4af37]" />
-                <span>+880 1234 567890</span>
+                <span>01334762288</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#d4af37]" />
-                <span>info@captainshop.com</span>
+                <span>masbsl.com@gmail.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#d4af37] mt-1" />
-                <span>ঢাকা, বাংলাদেশ</span>
+                <span>বাগেরহাট, খুলনা</span>
               </li>
             </ul>
           </div>
 
-          {/* Newsletter */}
-          <div>
-            <h4 className="font-bold mb-4 text-[#d4af37]">নিউজলেটার</h4>
-            <p className="text-sm text-gray-300 mb-3">সর্বশেষ অফার পান</p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="আপনার ইমেইল"
-                className="flex-1 px-3 py-2 bg-white text-[#001f3f] rounded text-sm"
-              />
-              <button className="px-4 py-2 bg-[#d4af37] text-[#001f3f] rounded font-bold hover:bg-[#e8c547] transition-colors">
-                সাবস্ক্রাইব
-              </button>
-            </div>
-          </div>
-        </div>
+    
 
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-300">
-            <p>&copy; 2025 Captain Shop. সর্বাধিকার সংরক্ষিত।</p>
+            <p>&copy; 2025 Captain Shop.সর্বাধিকার সংরক্ষিত।</p>
             <div className="flex gap-6 mt-4 md:mt-0">
-              <Link href="#" className="hover:text-[#d4af37] transition-colors">
-                গোপনীয়তা নীতি
-              </Link>
-              <Link href="#" className="hover:text-[#d4af37] transition-colors">
-                শর্তাবলী
-              </Link>
-              <Link href="#" className="hover:text-[#d4af37] transition-colors">
-                সাইটম্যাপ
-              </Link>
+              
             </div>
           </div>
         </div>
